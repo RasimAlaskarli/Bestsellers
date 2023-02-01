@@ -11,27 +11,49 @@ The output of the program may be a bit confusing when there are products with eq
 
 a simple case i presented in the first example run. There are eggs and flour in the listing, we sold 4 items of both. Therefore, these products share 2-nd and 3-rd place in the listing; the order is printed accordingly. Moreover, the relative position of flour/eggs is not given. The testing environment accepts all (here both) variants. Therefore, both listings would be accepted in this case:
    1. Milk, 5x
+   
    2.-3. Eggs, 4x
+   
    2.-3. Flour, 4x
+   
    4. Beer, 3x
+   
+   
    
    1. Milk, 5x
+   
    2.-3. Flour, 4x
+   
    2.-3. Eggs, 4x
+   
    4. Beer, 3x
    
+   
 A more complex case is shown in the second example run. The program is to compute the top N=3 products. However, the listings are longer than 3 items in some cases, e.g.:
+
+
    1.-4. Black_tea, 1x
+   
    1.-4. Caffeine, 1x
+   
    1.-4. C/C++_for_dummies, 1x
+   
    1.-4. Introduction_to_Algorithms, 1x
    
+   
 or:
+
+
    1.-2. Black_tea, 2x
+   
    1.-2. Caffeine, 2x
+   
    3.-5. C/C++_for_dummies, 1x
+   
    3.-5. Energy_drink, 1x
+   
    3.-5. Introduction_to_Algorithms, 1x
+   
    
 The listing is longer than N if there exist further products with sales equal to the sales of the displayed products.
 The program must validate input data. If the input is invalid, the program must detect it, it shall output an error message (see below), and terminate. If displayed, the error message must be sent to the standard output (do not send it to the error output) and the error message must be terminated by a newline (\n). The following is considered invalid:
