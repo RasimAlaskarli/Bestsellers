@@ -18,8 +18,8 @@ a simple case i presented in the first example run. There are eggs and flour in 
    
    4. Beer, 3x
    
-   
-   
+or:
+
    1. Milk, 5x
    
    2.-3. Flour, 4x
